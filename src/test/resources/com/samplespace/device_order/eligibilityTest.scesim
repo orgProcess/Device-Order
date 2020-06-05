@@ -102,7 +102,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">0</rawValue>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
