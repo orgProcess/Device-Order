@@ -34,12 +34,12 @@
       <dmn:contextEntry>
         <dmn:variable id="_2FEFBDC3-BFB9-4705-A85F-54A731147E69" name="IsEligible" typeRef="boolean"/>
         <dmn:literalExpression id="_34BFC3FD-84E1-4C7F-A345-C082065F863A">
-          <dmn:text>ChkEligibility.el</dmn:text>
+          <dmn:text>UserInfo.accBalance =&lt; 0</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_29068A7A-F2C3-4FA9-A335-71EBF27A61CA">
-          <dmn:text>if IsEligible == true then true else false</dmn:text>
+          <dmn:text>IsEligible</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
