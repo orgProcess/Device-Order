@@ -6,12 +6,69 @@ package com.samplespace.device_order;
 
 public class userInformation implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public userInformation() {
-    }
+	@org.kie.api.definition.type.Label(value = "Name")
+	private java.lang.String name;
+	@org.kie.api.definition.type.Label(value = "Mobile")
+	private java.lang.String mobileNo;
+	@org.kie.api.definition.type.Label(value = "Contract Start Date")
+	private java.util.Date cstartDate;
+	@org.kie.api.definition.type.Label(value = "Contract End Date")
+	private java.util.Date cendDate;
+	@org.kie.api.definition.type.Label(value = "Balance")
+	private int accBalance;
 
+	public userInformation() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.String getMobileNo() {
+		return this.mobileNo;
+	}
+
+	public void setMobileNo(java.lang.String mobileNo) {
+		this.mobileNo = mobileNo;
+	}
+
+	public java.util.Date getCstartDate() {
+		return this.cstartDate;
+	}
+
+	public void setCstartDate(java.util.Date cstartDate) {
+		this.cstartDate = cstartDate;
+	}
+
+	public java.util.Date getCendDate() {
+		return this.cendDate;
+	}
+
+	public void setCendDate(java.util.Date cendDate) {
+		this.cendDate = cendDate;
+	}
+
+	public int getAccBalance() {
+		return this.accBalance;
+	}
+
+	public void setAccBalance(int accBalance) {
+		this.accBalance = accBalance;
+	}
+
+	public userInformation(java.lang.String name, java.lang.String mobileNo,
+			java.util.Date cstartDate, java.util.Date cendDate, int accBalance) {
+		this.name = name;
+		this.mobileNo = mobileNo;
+		this.cstartDate = cstartDate;
+		this.cendDate = cendDate;
+		this.accBalance = accBalance;
+	}
 
 }
