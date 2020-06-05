@@ -91,6 +91,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
+            <rawValue class="string">Balance = 0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -138,6 +139,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
+            <rawValue class="string">Balance &gt; 0</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
