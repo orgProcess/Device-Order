@@ -34,7 +34,7 @@
       <dmn:contextEntry>
         <dmn:variable id="_2FEFBDC3-BFB9-4705-A85F-54A731147E69" name="IsEligible" typeRef="boolean"/>
         <dmn:literalExpression id="_34BFC3FD-84E1-4C7F-A345-C082065F863A">
-          <dmn:text>UserInfo.accBalance =&lt; 0</dmn:text>
+          <dmn:text>UserInfo.accBalance &lt; 1</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
