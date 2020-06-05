@@ -65,14 +65,14 @@
     </dmn:knowledgeRequirement>
     <dmn:context id="_970228CD-698B-4D42-830A-EAAE6FF5349A">
       <dmn:contextEntry>
-        <dmn:variable id="_2FEFBDC3-BFB9-4705-A85F-54A731147E69" name="ContextEntry-1"/>
+        <dmn:variable id="_2FEFBDC3-BFB9-4705-A85F-54A731147E69" name="IsEligible" typeRef="boolean"/>
         <dmn:literalExpression id="_34BFC3FD-84E1-4C7F-A345-C082065F863A">
-          <dmn:text>ChkEligibility = true</dmn:text>
+          <dmn:text>ChkEligibility.el</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_29068A7A-F2C3-4FA9-A335-71EBF27A61CA">
-          <dmn:text>true</dmn:text>
+          <dmn:text>if IsEligible == true then true else false</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
