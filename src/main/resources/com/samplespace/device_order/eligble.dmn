@@ -18,41 +18,10 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:inputData id="_73F34C4F-E88B-4168-83CF-6452E1138DCD" name="User Info">
+  <dmn:inputData id="_73F34C4F-E88B-4168-83CF-6452E1138DCD" name="UserInfo">
     <dmn:extensionElements/>
-    <dmn:variable id="_EFB91EC1-2145-42E2-8DDE-C556E2C2BDF7" name="User Info" typeRef="UserInfo"/>
+    <dmn:variable id="_EFB91EC1-2145-42E2-8DDE-C556E2C2BDF7" name="UserInfo" typeRef="UserInfo"/>
   </dmn:inputData>
-  <dmn:businessKnowledgeModel id="_5CB511D9-80CB-4E15-B6E7-A92B41123488" name="ChkEligibility">
-    <dmn:extensionElements/>
-    <dmn:variable id="_72EA0456-A4B2-42A8-90EC-53058D84684C" name="ChkEligibility" typeRef="boolean"/>
-    <dmn:encapsulatedLogic id="_0BE010BC-215A-4F81-989A-7938DEC58002" kind="FEEL">
-      <dmn:formalParameter id="_13B903A5-BC75-4600-9A9D-B5970F91AF4E" name="UserInfo" typeRef="UserInfo"/>
-      <dmn:decisionTable id="_CF22B0A4-F860-4AB5-80EC-4632E3A9F549" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-        <dmn:input id="_611D7616-DA6F-4644-88D0-D65BD5072786">
-          <dmn:inputExpression id="_7A34A714-E8F5-4EC3-B11F-1250A00C25A0" typeRef="number">
-            <dmn:text>UserInfo.accBalance</dmn:text>
-          </dmn:inputExpression>
-        </dmn:input>
-        <dmn:output id="_42ACBB4E-36EA-47AB-B81B-B9D68F7F761C" typeRef="boolean"/>
-        <dmn:rule id="_5CA0758C-2B98-4195-9D42-D40C65BDDD88">
-          <dmn:inputEntry id="_4D0F2C7F-9B0C-4469-8609-B28F4AA58106">
-            <dmn:text>&gt; 0</dmn:text>
-          </dmn:inputEntry>
-          <dmn:outputEntry id="_F98C5541-04E4-4AEE-A8AF-E342B1C575BC">
-            <dmn:text>false</dmn:text>
-          </dmn:outputEntry>
-        </dmn:rule>
-        <dmn:rule id="_543503F6-B4F4-4B1F-A8B2-FEE1DE92BE53">
-          <dmn:inputEntry id="_F2136461-524F-4F52-95AA-FFBCCA4D2534">
-            <dmn:text>=&lt; 0</dmn:text>
-          </dmn:inputEntry>
-          <dmn:outputEntry id="_5E29D35C-DADE-4A45-8082-1E7177F1E322">
-            <dmn:text>true</dmn:text>
-          </dmn:outputEntry>
-        </dmn:rule>
-      </dmn:decisionTable>
-    </dmn:encapsulatedLogic>
-  </dmn:businessKnowledgeModel>
   <dmn:decision id="_DCC891CE-FF8B-4A79-B7B9-D3ECF2F35B0D" name="Eligibility">
     <dmn:extensionElements/>
     <dmn:question>Eligible</dmn:question>
@@ -61,9 +30,6 @@
     <dmn:informationRequirement id="_F2538C09-F91D-4B2E-8B4C-72670A5DBD4D">
       <dmn:requiredInput href="#_73F34C4F-E88B-4168-83CF-6452E1138DCD"/>
     </dmn:informationRequirement>
-    <dmn:knowledgeRequirement id="_68B83C4E-FBF0-45CB-BA09-E4313D883980">
-      <dmn:requiredKnowledge href="#_5CB511D9-80CB-4E15-B6E7-A92B41123488"/>
-    </dmn:knowledgeRequirement>
     <dmn:context id="_970228CD-698B-4D42-830A-EAAE6FF5349A">
       <dmn:contextEntry>
         <dmn:variable id="_2FEFBDC3-BFB9-4705-A85F-54A731147E69" name="IsEligible" typeRef="boolean"/>
@@ -82,16 +48,6 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_CF22B0A4-F860-4AB5-80EC-4632E3A9F549">
-            <kie:width>50.0</kie:width>
-            <kie:width>227.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>433.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_0BE010BC-215A-4F81-989A-7938DEC58002">
-            <kie:width>50.0</kie:width>
-            <kie:width>830.0</kie:width>
-          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_970228CD-698B-4D42-830A-EAAE6FF5349A">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
@@ -111,16 +67,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="539" y="318" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_5CB511D9-80CB-4E15-B6E7-A92B41123488" dmnElementRef="_5CB511D9-80CB-4E15-B6E7-A92B41123488" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="795" y="142" width="100" height="50"/>
+        <dc:Bounds x="354" y="296" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_DCC891CE-FF8B-4A79-B7B9-D3ECF2F35B0D" dmnElementRef="_DCC891CE-FF8B-4A79-B7B9-D3ECF2F35B0D" isCollapsed="false">
@@ -129,16 +76,12 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="524" y="137" width="100" height="50"/>
+        <dc:Bounds x="354" y="80" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_F2538C09-F91D-4B2E-8B4C-72670A5DBD4D" dmnElementRef="_F2538C09-F91D-4B2E-8B4C-72670A5DBD4D">
-        <di:waypoint x="589" y="343"/>
-        <di:waypoint x="574" y="162"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_68B83C4E-FBF0-45CB-BA09-E4313D883980" dmnElementRef="_68B83C4E-FBF0-45CB-BA09-E4313D883980">
-        <di:waypoint x="845" y="167"/>
-        <di:waypoint x="574" y="162"/>
+        <di:waypoint x="404" y="321"/>
+        <di:waypoint x="404" y="105"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
