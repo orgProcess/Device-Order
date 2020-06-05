@@ -56,6 +56,7 @@
   <dmn:decision id="_DCC891CE-FF8B-4A79-B7B9-D3ECF2F35B0D" name="Eligibility">
     <dmn:extensionElements/>
     <dmn:question>Eligible</dmn:question>
+    <dmn:allowedAnswers>true,false</dmn:allowedAnswers>
     <dmn:variable id="_128CEA53-0252-4CA6-BADA-8FE09F5C18A8" name="Eligibility" typeRef="boolean"/>
     <dmn:informationRequirement id="_F2538C09-F91D-4B2E-8B4C-72670A5DBD4D">
       <dmn:requiredInput href="#_73F34C4F-E88B-4168-83CF-6452E1138DCD"/>
