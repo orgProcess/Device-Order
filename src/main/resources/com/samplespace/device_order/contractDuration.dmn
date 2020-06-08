@@ -31,11 +31,14 @@
   <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="CO">
     <dmn:extensionElements/>
     <dmn:variable id="_FBDD1F83-6781-4C5D-91FB-FF53DC8148F6" name="CO" typeRef="boolean"/>
+    <dmn:informationRequirement id="_BDF469B8-159F-40BA-BE2D-1B99E4EBE29A">
+      <dmn:requiredDecision href="#_9804659A-046E-4D62-91AF-80682643A91E"/>
+    </dmn:informationRequirement>
     <dmn:knowledgeRequirement id="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
     <dmn:literalExpression id="_A871C935-1349-4095-92F5-2D1E461E7A60">
-      <dmn:text>CD(UserInfo) = true</dmn:text>
+      <dmn:text>CD(PassUserInfo) = true</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
@@ -130,6 +133,10 @@
       <dmndi:DMNEdge id="dmnedge-_68FA9CA4-2D34-41BC-802F-D3BDDF614E13" dmnElementRef="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
         <di:waypoint x="740.5" y="118"/>
         <di:waypoint x="489" y="80.5"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_BDF469B8-159F-40BA-BE2D-1B99E4EBE29A" dmnElementRef="_BDF469B8-159F-40BA-BE2D-1B99E4EBE29A">
+        <di:waypoint x="430" y="169"/>
+        <di:waypoint x="429.5" y="80.5"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_1CB54449-1822-44B1-AB88-C8ED5E5CBB43" dmnElementRef="_1CB54449-1822-44B1-AB88-C8ED5E5CBB43">
         <di:waypoint x="431" y="402"/>
