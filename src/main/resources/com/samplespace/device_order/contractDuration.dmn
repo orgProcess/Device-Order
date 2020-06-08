@@ -24,7 +24,7 @@
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="userinfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
-        <dmn:text>date(userinfo.cendDate) > date("2020-06-08")</dmn:text>
+        <dmn:text>date(userinfo.cendDate) > date()</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
@@ -37,14 +37,9 @@
     <dmn:knowledgeRequirement id="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
-    <dmn:context id="_1538FAA8-5282-473E-B91B-2A52CBB46CC4">
-      <dmn:contextEntry>
-        <dmn:variable id="_4F1D3F07-DCFD-428D-86D8-FB182E506CF9" name="ContextEntry-1"/>
-        <dmn:literalExpression>
-          <dmn:text>null // auto-filled by the editor to avoid missing empty expression.</dmn:text>
-        </dmn:literalExpression>
-      </dmn:contextEntry>
-    </dmn:context>
+    <dmn:literalExpression id="_A871C935-1349-4095-92F5-2D1E461E7A60">
+      <dmn:text>ContractDuration(UserInfo) = true</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
     <dmn:extensionElements/>
@@ -67,10 +62,8 @@
             <kie:width>50.0</kie:width>
             <kie:width>621.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_1538FAA8-5282-473E-B91B-2A52CBB46CC4">
-            <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>508.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_A871C935-1349-4095-92F5-2D1E461E7A60">
+            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
