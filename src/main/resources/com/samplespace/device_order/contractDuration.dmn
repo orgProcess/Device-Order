@@ -24,7 +24,7 @@
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
-        <dmn:text>date(UserInfo.cendDate) > now()</dmn:text>
+        <dmn:text>UserInfo.cendDate > now()</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
