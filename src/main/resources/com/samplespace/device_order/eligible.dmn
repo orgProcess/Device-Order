@@ -44,7 +44,7 @@
   </dmn:businessKnowledgeModel>
   <dmn:decision id="_DCBCB702-8332-4DEF-AC79-A698AD9CDBAA" name="Eligibility">
     <dmn:extensionElements/>
-    <dmn:variable id="_919339CB-BC71-4A41-9D40-26D8C84414C6" name="Eligibility"/>
+    <dmn:variable id="_919339CB-BC71-4A41-9D40-26D8C84414C6" name="Eligibility" typeRef="boolean"/>
     <dmn:informationRequirement id="_F5BBB1CA-7155-43E1-BABA-F62D7431187A">
       <dmn:requiredInput href="#_73F34C4F-E88B-4168-83CF-6452E1138DCD"/>
     </dmn:informationRequirement>
