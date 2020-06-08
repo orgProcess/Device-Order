@@ -47,9 +47,19 @@
     <dmn:knowledgeRequirement id="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
-    <dmn:literalExpression id="_A871C935-1349-4095-92F5-2D1E461E7A60">
-      <dmn:text>CD(UserInfo)</dmn:text>
-    </dmn:literalExpression>
+    <dmn:context id="_6A27B9F8-FE66-4B95-8F78-FFE96D17433C">
+      <dmn:contextEntry>
+        <dmn:variable id="_410D3A5C-E112-4B47-9B34-4F783F85656A" name="OutOfContract" typeRef="boolean"/>
+        <dmn:literalExpression id="_1DBEFC9B-C652-4799-A832-66BE007886DC">
+          <dmn:text>CD(UserInfo)</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_6ABE8C37-193F-43D5-ABC2-9F48737DE0C1">
+          <dmn:text>if OutOfContract = true then true else false    </dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
     <dmn:extensionElements/>
@@ -80,7 +90,15 @@
             <kie:width>50.0</kie:width>
             <kie:width>621.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_A871C935-1349-4095-92F5-2D1E461E7A60">
+          <kie:ComponentWidths dmnElementRef="_6A27B9F8-FE66-4B95-8F78-FFE96D17433C">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_1DBEFC9B-C652-4799-A832-66BE007886DC">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_6ABE8C37-193F-43D5-ABC2-9F48737DE0C1">
             <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
