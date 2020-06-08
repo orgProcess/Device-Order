@@ -49,7 +49,7 @@
       <dmn:requiredInput href="#_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_62CFEBB3-DB7B-4C0D-96F7-EA61C8728FEF">
-      <dmn:text></dmn:text>
+      <dmn:text>userInformation = UserInfo</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decisionService id="_9F51ADFE-702B-48DA-925C-896D43F63E57" name="IsContractOver">
