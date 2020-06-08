@@ -22,9 +22,7 @@
     <dmn:extensionElements/>
     <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="ContractDuration" typeRef="number"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
-      <dmn:literalExpression id="_79F39892-534D-409F-B2CB-86A425071E93">
-        <dmn:text></dmn:text>
-      </dmn:literalExpression>
+      <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="userinfo" typeRef="userInformation"/>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
   <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="ContractOver">
@@ -51,8 +49,10 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_79F39892-534D-409F-B2CB-86A425071E93"/>
-          <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9"/>
+          <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9">
+            <kie:width>50.0</kie:width>
+            <kie:width>150.0</kie:width>
+          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_4752906E-1C61-449D-8D8A-4A8FA65D8712" dmnElementRef="_4752906E-1C61-449D-8D8A-4A8FA65D8712" isCollapsed="false">
