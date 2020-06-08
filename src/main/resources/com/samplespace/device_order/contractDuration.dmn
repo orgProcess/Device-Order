@@ -37,6 +37,14 @@
     <dmn:knowledgeRequirement id="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
+    <dmn:context id="_1538FAA8-5282-473E-B91B-2A52CBB46CC4">
+      <dmn:contextEntry>
+        <dmn:variable id="_4F1D3F07-DCFD-428D-86D8-FB182E506CF9" name="ContextEntry-1"/>
+        <dmn:literalExpression>
+          <dmn:text>null // auto-filled by the editor to avoid missing empty expression.</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
     <dmn:extensionElements/>
@@ -58,6 +66,11 @@
           <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9">
             <kie:width>50.0</kie:width>
             <kie:width>621.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_1538FAA8-5282-473E-B91B-2A52CBB46CC4">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>508.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
