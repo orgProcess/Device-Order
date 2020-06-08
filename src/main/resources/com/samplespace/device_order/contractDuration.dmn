@@ -56,7 +56,7 @@
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_6ABE8C37-193F-43D5-ABC2-9F48737DE0C1">
-          <dmn:text>if OutOfContract = true then true else false    </dmn:text>
+          <dmn:text>if OutOfContract != false then true else false    </dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
@@ -93,13 +93,13 @@
           <kie:ComponentWidths dmnElementRef="_6A27B9F8-FE66-4B95-8F78-FFE96D17433C">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>300.0</kie:width>
+            <kie:width>463.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_1DBEFC9B-C652-4799-A832-66BE007886DC">
-            <kie:width>300.0</kie:width>
+            <kie:width>463.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_6ABE8C37-193F-43D5-ABC2-9F48737DE0C1">
-            <kie:width>300.0</kie:width>
+            <kie:width>463.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
