@@ -26,6 +26,7 @@
     <dmn:extensionElements/>
     <dmn:variable id="_F520757F-1F07-4B86-917F-EEF495464342" name="IsEligibility" typeRef="boolean"/>
     <dmn:encapsulatedLogic id="_40891655-0FB4-4F2C-8EE7-F24AD3F96CF3" kind="FEEL">
+      <dmn:formalParameter id="_E5D0224E-F458-4997-A956-0BA4A4B6F95F" name="UserInfo" typeRef="UserInfo"/>
       <dmn:context id="_22AD918E-58B7-43CB-8A76-886E2F87D59F">
         <dmn:contextEntry>
           <dmn:variable id="_428AB1A5-99FE-4394-B6B8-487532371B2A" name="IsEligible" typeRef="boolean"/>
