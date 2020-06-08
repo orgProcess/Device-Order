@@ -45,9 +45,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_FCBB2101-31C8-4C51-8B2F-D74ADA6D6E36" name="UserInfo" typeRef="userInformation"/>
   </dmn:inputData>
-  <dmn:decisionService id="_9F51ADFE-702B-48DA-925C-896D43F63E57" name="DecisionService-1">
+  <dmn:decisionService id="_9F51ADFE-702B-48DA-925C-896D43F63E57" name="IsContractOver">
     <dmn:extensionElements/>
-    <dmn:variable id="_0744A4BE-7F6C-4705-8F25-108C770D947D" name="DecisionService-1"/>
+    <dmn:variable id="_0744A4BE-7F6C-4705-8F25-108C770D947D" name="IsContractOver" typeRef="boolean"/>
     <dmn:outputDecision href="#_4752906E-1C61-449D-8D8A-4A8FA65D8712"/>
     <dmn:inputData href="#_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0"/>
   </dmn:decisionService>
