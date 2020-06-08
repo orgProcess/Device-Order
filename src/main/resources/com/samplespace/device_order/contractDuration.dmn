@@ -37,9 +37,6 @@
     <dmn:knowledgeRequirement id="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
-    <dmn:literalExpression id="_D39E52A9-B1F4-4DEA-BE63-642D67C02767">
-      <dmn:text>ContractDuration(UserInfo) = true</dmn:text>
-    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
     <dmn:extensionElements/>
@@ -61,9 +58,6 @@
           <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9">
             <kie:width>50.0</kie:width>
             <kie:width>621.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_D39E52A9-B1F4-4DEA-BE63-642D67C02767">
-            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
