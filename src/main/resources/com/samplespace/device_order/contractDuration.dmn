@@ -38,7 +38,7 @@
       <dmn:requiredKnowledge href="#_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A"/>
     </dmn:knowledgeRequirement>
     <dmn:literalExpression id="_A871C935-1349-4095-92F5-2D1E461E7A60">
-      <dmn:text>ContractDuration(UserInfo) == true</dmn:text>
+      <dmn:text>CD(UserInfo) = true</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
