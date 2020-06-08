@@ -23,8 +23,8 @@
     <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="ContractDuration" typeRef="boolean"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="userinfo" typeRef="userInformation"/>
-      <dmn:literalExpression id="_F545C515-672D-48E8-B418-C6E221D99F14">
-        <dmn:text>date(userinfo.cendDate) > SysDate()</dmn:text>
+      <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
+        <dmn:text>date(userinfo.cendDate) > date()</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
@@ -52,12 +52,12 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_F545C515-672D-48E8-B418-C6E221D99F14">
-            <kie:width>539.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
+            <kie:width>621.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9">
             <kie:width>50.0</kie:width>
-            <kie:width>539.0</kie:width>
+            <kie:width>621.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
