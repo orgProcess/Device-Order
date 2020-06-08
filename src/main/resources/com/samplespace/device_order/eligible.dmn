@@ -52,7 +52,7 @@
       <dmn:requiredKnowledge href="#_25C795B4-C7E5-4584-AA7E-D19EB80777AF"/>
     </dmn:knowledgeRequirement>
     <dmn:literalExpression id="_E5DC87EA-99F9-4CDD-96F1-6203538B7A38">
-      <dmn:text>IsEligibility(UserInfo) = false</dmn:text>
+      <dmn:text>IsEligibility(UserInfo) = true</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
