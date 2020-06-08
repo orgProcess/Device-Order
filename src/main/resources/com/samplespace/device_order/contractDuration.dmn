@@ -23,9 +23,19 @@
     <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="CD" typeRef="boolean"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
-      <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
-        <dmn:text>UserInfo.cendDate > now()</dmn:text>
-      </dmn:literalExpression>
+      <dmn:context id="_5FAA050D-EEFF-4D42-AEFA-144DD6691B74">
+        <dmn:contextEntry>
+          <dmn:variable id="_3D452FD1-A4B6-4BBC-A7AA-E7ED8BB51637" name="IsEligible" typeRef="boolean"/>
+          <dmn:literalExpression id="_FD266349-7C4E-42D0-9DB2-6B09D3613609">
+            <dmn:text>UserInfo.cendDate > now()</dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+        <dmn:contextEntry>
+          <dmn:literalExpression id="_A9B57486-14BA-49EE-870A-F37D810290BA">
+            <dmn:text>if IsEligible = true then true else false   </dmn:text>
+          </dmn:literalExpression>
+        </dmn:contextEntry>
+      </dmn:context>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
   <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="CO">
@@ -55,8 +65,16 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
-            <kie:width>621.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_5FAA050D-EEFF-4D42-AEFA-144DD6691B74">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>451.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_FD266349-7C4E-42D0-9DB2-6B09D3613609">
+            <kie:width>451.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_A9B57486-14BA-49EE-870A-F37D810290BA">
+            <kie:width>451.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9">
             <kie:width>50.0</kie:width>
