@@ -22,7 +22,7 @@
     <dmn:extensionElements/>
     <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="ContractDuration" typeRef="boolean"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
-      <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="userinfo" typeRef="userInformation"/>
+      <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
         <dmn:text>date(userinfo.cendDate) > now()</dmn:text>
       </dmn:literalExpression>
@@ -73,7 +73,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="738" y="162" width="129" height="50"/>
+        <dc:Bounds x="673" y="93" width="129" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_4752906E-1C61-449D-8D8A-4A8FA65D8712" dmnElementRef="_4752906E-1C61-449D-8D8A-4A8FA65D8712" isCollapsed="false">
@@ -82,7 +82,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="437" y="162" width="119" height="51"/>
+        <dc:Bounds x="372" y="93" width="119" height="51"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" dmnElementRef="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" isCollapsed="false">
@@ -91,7 +91,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="446" y="446" width="100" height="50"/>
+        <dc:Bounds x="381" y="377" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_9F51ADFE-702B-48DA-925C-896D43F63E57" dmnElementRef="_9F51ADFE-702B-48DA-925C-896D43F63E57" isCollapsed="false">
@@ -100,20 +100,20 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="397" y="126" width="200" height="200"/>
+        <dc:Bounds x="332" y="57" width="200" height="200"/>
         <dmndi:DMNLabel/>
         <dmndi:DMNDecisionServiceDividerLine>
-          <di:waypoint x="397" y="226"/>
-          <di:waypoint x="597" y="226"/>
+          <di:waypoint x="332" y="157"/>
+          <di:waypoint x="532" y="157"/>
         </dmndi:DMNDecisionServiceDividerLine>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_1CB54449-1822-44B1-AB88-C8ED5E5CBB43" dmnElementRef="_1CB54449-1822-44B1-AB88-C8ED5E5CBB43">
-        <di:waypoint x="496" y="471"/>
-        <di:waypoint x="496.5" y="187.5"/>
+        <di:waypoint x="431" y="402"/>
+        <di:waypoint x="431.5" y="118.5"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_68FA9CA4-2D34-41BC-802F-D3BDDF614E13" dmnElementRef="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
-        <di:waypoint x="802.5" y="187"/>
-        <di:waypoint x="556" y="187.5"/>
+        <di:waypoint x="737.5" y="118"/>
+        <di:waypoint x="491" y="118.5"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
