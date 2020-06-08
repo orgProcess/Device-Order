@@ -18,9 +18,9 @@
       <dmn:typeRef>date and time</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:businessKnowledgeModel id="_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A" name="ContractDuration">
+  <dmn:businessKnowledgeModel id="_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A" name="CD">
     <dmn:extensionElements/>
-    <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="ContractDuration" typeRef="boolean"/>
+    <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="CD" typeRef="boolean"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_C79A81A3-57F2-461D-B671-9B7FA0433BC1">
@@ -28,9 +28,9 @@
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
-  <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="ContractOver">
+  <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="CO">
     <dmn:extensionElements/>
-    <dmn:variable id="_FBDD1F83-6781-4C5D-91FB-FF53DC8148F6" name="ContractOver" typeRef="boolean"/>
+    <dmn:variable id="_FBDD1F83-6781-4C5D-91FB-FF53DC8148F6" name="CO" typeRef="boolean"/>
     <dmn:informationRequirement id="_1CB54449-1822-44B1-AB88-C8ED5E5CBB43">
       <dmn:requiredInput href="#_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0"/>
     </dmn:informationRequirement>
