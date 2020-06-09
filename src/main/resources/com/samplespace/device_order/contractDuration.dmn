@@ -30,6 +30,7 @@
   </dmn:businessKnowledgeModel>
   <dmn:decision id="_4752906E-1C61-449D-8D8A-4A8FA65D8712" name="CO">
     <dmn:extensionElements/>
+    <dmn:question>ContractOver</dmn:question>
     <dmn:variable id="_FBDD1F83-6781-4C5D-91FB-FF53DC8148F6" name="CO" typeRef="boolean"/>
     <dmn:informationRequirement id="_36AE3AC8-BD51-41B7-AF88-1DE4FA0B6E04">
       <dmn:requiredInput href="#_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0"/>
@@ -107,13 +108,13 @@
           <di:waypoint x="532" y="217"/>
         </dmndi:DMNDecisionServiceDividerLine>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_68FA9CA4-2D34-41BC-802F-D3BDDF614E13" dmnElementRef="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
-        <di:waypoint x="743.5" y="178"/>
-        <di:waypoint x="491" y="178.5"/>
-      </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_36AE3AC8-BD51-41B7-AF88-1DE4FA0B6E04" dmnElementRef="_36AE3AC8-BD51-41B7-AF88-1DE4FA0B6E04">
         <di:waypoint x="431" y="402"/>
         <di:waypoint x="431.5" y="178.5"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_68FA9CA4-2D34-41BC-802F-D3BDDF614E13" dmnElementRef="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
+        <di:waypoint x="743.5" y="178"/>
+        <di:waypoint x="491" y="178.5"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
