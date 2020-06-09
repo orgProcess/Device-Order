@@ -54,7 +54,7 @@
           <expressionAlias>cendDate</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>540.5</columnWidth>
+          <columnWidth>314.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -63,18 +63,18 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|6</name>
+            <name>1591734424268</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
             <name>CO</name>
-            <className>CO</className>
+            <className>.CO</className>
           </factIdentifier>
           <className>boolean</className>
           <factAlias>CO</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>540.5</columnWidth>
+          <columnWidth>314.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -116,10 +116,10 @@
           <FactMappingValue>
             <factIdentifier>
               <name>CO</name>
-              <className>CO</className>
+              <className>.CO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|6</name>
+              <name>1591734424268</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
@@ -163,10 +163,10 @@
           <FactMappingValue>
             <factIdentifier>
               <name>CO</name>
-              <className>CO</className>
+              <className>.CO</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|6</name>
+              <name>1591734424268</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
