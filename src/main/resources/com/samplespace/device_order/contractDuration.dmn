@@ -54,6 +54,9 @@
   <dmn:decision id="_2D5CFD70-77F0-464E-83A0-475F865582AB" name="FD">
     <dmn:extensionElements/>
     <dmn:variable id="_E03EDA07-FB00-4584-9FEB-3ECAC695A6FB" name="FD" typeRef="boolean"/>
+    <dmn:informationRequirement id="_CF38D0B7-9129-48B9-A5B6-68C1C6855492">
+      <dmn:requiredInput href="#_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0"/>
+    </dmn:informationRequirement>
     <dmn:knowledgeRequirement id="_7CE34ED8-DE53-46C0-9A59-EA181E48F307">
       <dmn:requiredKnowledge href="#_9F51ADFE-702B-48DA-925C-896D43F63E57"/>
     </dmn:knowledgeRequirement>
@@ -166,6 +169,10 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_7CE34ED8-DE53-46C0-9A59-EA181E48F307" dmnElementRef="_7CE34ED8-DE53-46C0-9A59-EA181E48F307">
         <di:waypoint x="432" y="217"/>
+        <di:waypoint x="733" y="217"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_CF38D0B7-9129-48B9-A5B6-68C1C6855492" dmnElementRef="_CF38D0B7-9129-48B9-A5B6-68C1C6855492">
+        <di:waypoint x="431" y="402"/>
         <di:waypoint x="733" y="217"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
