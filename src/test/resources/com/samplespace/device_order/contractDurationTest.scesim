@@ -54,27 +54,27 @@
           <expressionAlias>cendDate</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>540.5</columnWidth>
+          <columnWidth>350.5</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>CO</step>
+              <step>FD</step>
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1591734424268</name>
+            <name>1591891812930</name>
             <type>EXPECT</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>CO</name>
-            <className>.CO</className>
+            <name>FD</name>
+            <className>.FD</className>
           </factIdentifier>
           <className>boolean</className>
-          <factAlias>CO</factAlias>
+          <factAlias>FD</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>540.5</columnWidth>
+          <columnWidth>314.5</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -115,11 +115,11 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>CO</name>
-              <className>.CO</className>
+              <name>FD</name>
+              <className>.FD</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1591734424268</name>
+              <name>1591891812930</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
@@ -162,11 +162,11 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>CO</name>
-              <className>.CO</className>
+              <name>FD</name>
+              <className>.FD</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1591734424268</name>
+              <name>1591891812930</name>
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
