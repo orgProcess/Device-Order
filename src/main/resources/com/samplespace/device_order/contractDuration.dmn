@@ -24,7 +24,7 @@
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_941F4470-51EB-46BE-ACE2-3BCBBF708C7F">
-        <dmn:text>true</dmn:text>
+        <dmn:text>UserInfo.cenddate > now()</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
@@ -41,10 +41,6 @@
       <dmn:text>CD(UserInfo)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
-    <dmn:extensionElements/>
-    <dmn:variable id="_FCBB2101-31C8-4C51-8B2F-D74ADA6D6E36" name="UserInfo" typeRef="userInformation"/>
-  </dmn:inputData>
   <dmn:decision id="_2D5CFD70-77F0-464E-83A0-475F865582AB" name="FD">
     <dmn:extensionElements/>
     <dmn:variable id="_E03EDA07-FB00-4584-9FEB-3ECAC695A6FB" name="FD" typeRef="boolean"/>
@@ -58,6 +54,10 @@
       <dmn:text>IsContractOver(UserInfo)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
+  <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
+    <dmn:extensionElements/>
+    <dmn:variable id="_FCBB2101-31C8-4C51-8B2F-D74ADA6D6E36" name="UserInfo" typeRef="userInformation"/>
+  </dmn:inputData>
   <dmn:decisionService id="_9F51ADFE-702B-48DA-925C-896D43F63E57" name="IsContractOver">
     <dmn:extensionElements/>
     <dmn:variable id="_0744A4BE-7F6C-4705-8F25-108C770D947D" name="IsContractOver" typeRef="boolean"/>
@@ -101,15 +101,6 @@
         <dc:Bounds x="372" y="153" width="119" height="51"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" dmnElementRef="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="557.2990654205607" y="437" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_2D5CFD70-77F0-464E-83A0-475F865582AB" dmnElementRef="_2D5CFD70-77F0-464E-83A0-475F865582AB" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -117,6 +108,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="683" y="192" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" dmnElementRef="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="557.2990654205607" y="437" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_9F51ADFE-702B-48DA-925C-896D43F63E57" dmnElementRef="_9F51ADFE-702B-48DA-925C-896D43F63E57" isCollapsed="false">
