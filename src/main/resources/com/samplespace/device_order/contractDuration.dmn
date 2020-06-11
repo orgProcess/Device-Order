@@ -58,7 +58,7 @@
       <dmn:requiredKnowledge href="#_9F51ADFE-702B-48DA-925C-896D43F63E57"/>
     </dmn:knowledgeRequirement>
     <dmn:literalExpression id="_DD3A4E8D-5270-4664-915A-B0B03137D8FB">
-      <dmn:text>CO()</dmn:text>
+      <dmn:text>CO(UserInfo)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
