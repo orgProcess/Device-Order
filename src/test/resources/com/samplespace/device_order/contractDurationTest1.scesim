@@ -54,7 +54,7 @@
           <expressionAlias>cendDate</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>540.5</columnWidth>
+          <columnWidth>683.3690058479532</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -74,7 +74,7 @@
           <factAlias>CO</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>314.5</columnWidth>
+          <columnWidth>397.63099415204675</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
