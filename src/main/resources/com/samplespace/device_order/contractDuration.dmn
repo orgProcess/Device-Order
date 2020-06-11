@@ -51,23 +51,20 @@
       <dmn:text>UserInfo</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
-  <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
-    <dmn:extensionElements/>
-    <dmn:variable id="_FCBB2101-31C8-4C51-8B2F-D74ADA6D6E36" name="UserInfo" typeRef="userInformation"/>
-  </dmn:inputData>
   <dmn:decision id="_2D5CFD70-77F0-464E-83A0-475F865582AB" name="FD">
     <dmn:extensionElements/>
     <dmn:variable id="_E03EDA07-FB00-4584-9FEB-3ECAC695A6FB" name="FD" typeRef="boolean"/>
     <dmn:knowledgeRequirement id="_7CE34ED8-DE53-46C0-9A59-EA181E48F307">
       <dmn:requiredKnowledge href="#_9F51ADFE-702B-48DA-925C-896D43F63E57"/>
     </dmn:knowledgeRequirement>
-    <dmn:functionDefinition id="_35CCC8E2-A73D-49C9-9622-C3BAEFEA2480" kind="FEEL">
-      <dmn:formalParameter id="_D2907830-A020-4C64-BE52-95DE15D8309B" name="UserInfo" typeRef="userInformation"/>
-      <dmn:literalExpression id="_0ADC9744-43CF-4EE3-943F-050EA800FC63">
-        <dmn:text>IsContractOver(UserInfo)</dmn:text>
-      </dmn:literalExpression>
-    </dmn:functionDefinition>
+    <dmn:literalExpression id="_08A66B6C-B898-4C29-8DFD-84980C70A981">
+      <dmn:text>IsContractOver(UserInfo)</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
+  <dmn:inputData id="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" name="UserInfo">
+    <dmn:extensionElements/>
+    <dmn:variable id="_FCBB2101-31C8-4C51-8B2F-D74ADA6D6E36" name="UserInfo" typeRef="userInformation"/>
+  </dmn:inputData>
   <dmn:decisionService id="_9F51ADFE-702B-48DA-925C-896D43F63E57" name="IsContractOver">
     <dmn:extensionElements/>
     <dmn:variable id="_0744A4BE-7F6C-4705-8F25-108C770D947D" name="IsContractOver" typeRef="boolean"/>
@@ -92,12 +89,8 @@
           <kie:ComponentWidths dmnElementRef="_84798E9E-46B0-4311-A964-385FDE3FA230">
             <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_35CCC8E2-A73D-49C9-9622-C3BAEFEA2480">
-            <kie:width>50.0</kie:width>
-            <kie:width>594.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_0ADC9744-43CF-4EE3-943F-050EA800FC63">
-            <kie:width>594.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_08A66B6C-B898-4C29-8DFD-84980C70A981">
+            <kie:width>300.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
@@ -128,15 +121,6 @@
         <dc:Bounds x="382" y="237" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" dmnElementRef="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="381" y="377" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_2D5CFD70-77F0-464E-83A0-475F865582AB" dmnElementRef="_2D5CFD70-77F0-464E-83A0-475F865582AB" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -144,6 +128,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="683" y="192" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" dmnElementRef="_EE1A4BEE-C25F-41FE-9306-6F089A36FEE0" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="381" y="377" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_9F51ADFE-702B-48DA-925C-896D43F63E57" dmnElementRef="_9F51ADFE-702B-48DA-925C-896D43F63E57" isCollapsed="false">
