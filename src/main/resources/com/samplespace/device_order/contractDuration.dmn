@@ -24,7 +24,7 @@
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_0D323643-302F-4E55-9758-E956FD3E52A2">
-        <dmn:text>UserInfo.cendDate > date("2020-06-12")</dmn:text>
+        <dmn:text>1 = 2</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
@@ -73,7 +73,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="98" y="117" width="129" height="50"/>
+        <dc:Bounds x="153" y="117" width="129" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_4752906E-1C61-449D-8D8A-4A8FA65D8712" dmnElementRef="_4752906E-1C61-449D-8D8A-4A8FA65D8712" isCollapsed="false">
@@ -112,7 +112,7 @@
         <di:waypoint x="431.5" y="178.5"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_68FA9CA4-2D34-41BC-802F-D3BDDF614E13" dmnElementRef="_68FA9CA4-2D34-41BC-802F-D3BDDF614E13">
-        <di:waypoint x="162.5" y="142"/>
+        <di:waypoint x="217.5" y="142"/>
         <di:waypoint x="491" y="178.5"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
