@@ -20,11 +20,11 @@
   </dmn:itemDefinition>
   <dmn:businessKnowledgeModel id="_B9E582CB-C1AD-4B25-A2F1-73D5B855A71A" name="CD">
     <dmn:extensionElements/>
-    <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="CD" typeRef="boolean"/>
+    <dmn:variable id="_4FE53280-170F-4983-8058-E0884C884126" name="CD" typeRef="string"/>
     <dmn:encapsulatedLogic id="_B7AC62FC-0B81-4BED-AEB5-F4C5FE957EC9" kind="FEEL">
       <dmn:formalParameter id="_FB7283BE-AAE2-418D-983D-4CEB6DA3E055" name="UserInfo" typeRef="userInformation"/>
       <dmn:literalExpression id="_0D323643-302F-4E55-9758-E956FD3E52A2">
-        <dmn:text>UserInfo.cendDate = now()</dmn:text>
+        <dmn:text>now()</dmn:text>
       </dmn:literalExpression>
     </dmn:encapsulatedLogic>
   </dmn:businessKnowledgeModel>
